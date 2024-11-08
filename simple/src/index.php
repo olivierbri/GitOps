@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Café !</title>
+    <title>Payes ton Café !</title>
     <link rel="stylesheet" href="css/style.css">
 
     <style>
         .cup-container {
             text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
 
         .ip-hostname, h1 {
