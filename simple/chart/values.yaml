@@ -23,6 +23,12 @@ securityContext:
   #  runAsNonRoot: true
   #  runAsUser: 1000
 
+strategy:
+  rollingUpdate:
+    maxSurge: 50%
+    maxUnavailable: 50%
+  type: RollingUpdate
+
 service:
   type: ClusterIP
   port: 80
